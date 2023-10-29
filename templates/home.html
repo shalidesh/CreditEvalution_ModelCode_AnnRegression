@@ -1,0 +1,55 @@
+<html>
+<body>
+    <div class="login">
+       <h1>credit Evalution</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Credit Evaluation CDB</legend>
+        </h1>
+        <div class="mb-3">
+            <label class="form-label">YOM</label>
+            <input type="text" id="yom" name="yom" placeholder="Enter YOM" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Milage</label>
+            <input type="text" id="milage" name="milage" placeholder="Enter Milage" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Strock Type</label>
+            <select class="form-control" name="strock"
+                placeholder="Select Strock Type" required>
+                <option class="placeholder" selected disabled value="">Select Strock Value</option>
+                <option value="2 stroke">
+                    2 Strock
+                </option>
+                <option value="4 stroke">
+                    4 Strock
+                </option>
+                
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Light Type</label>
+            <select class="form-control" name="light_type"
+                placeholder="Select Light Type" required>
+                <option class="placeholder" selected disabled value="">Select :ight Type</option>
+                <option value="Single Light">
+                    Single Light
+                </option>
+                <option value="Double Light">
+                    Double Ligh
+                </option>
+                
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict the Price" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>

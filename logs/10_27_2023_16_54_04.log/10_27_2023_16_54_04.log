@@ -1,0 +1,5 @@
+[ 2023-10-27 16:54:08,235 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-27 16:54:08,243 ] 96 werkzeug - INFO -  * Debugger PIN: 397-196-606
+[ 2023-10-27 16:54:16,612 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 16:54:16] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-27 16:54:28,159 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Oct/2023 16:54:28] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-10-27 16:55:11,298 ] 96 werkzeug - INFO -  * Detected change in 'E:\\CDB\\CDB_Projects\\ModelBuiding\\ModelCode\\app.py', reloading

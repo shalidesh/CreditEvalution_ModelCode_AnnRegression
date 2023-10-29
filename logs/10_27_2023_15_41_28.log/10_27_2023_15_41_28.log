@@ -1,0 +1,14 @@
+[ 2023-10-27 15:41:33,445 ] 27 root - INFO - Entered the data ingestion method or component
+[ 2023-10-27 15:41:34,086 ] 30 root - INFO - Read the dataset as dataframe
+[ 2023-10-27 15:41:34,098 ] 36 root - INFO - Train test split initiated
+[ 2023-10-27 15:41:34,109 ] 43 root - INFO - Ingestion of the data iss completed
+[ 2023-10-27 15:41:34,132 ] 80 root - INFO - Read train and test data completed
+[ 2023-10-27 15:41:34,132 ] 82 root - INFO - Obtaining preprocessing object
+[ 2023-10-27 15:41:34,132 ] 56 root - INFO - Categorical columns: ['stroke_values', 'Light Type']
+[ 2023-10-27 15:41:34,132 ] 57 root - INFO - Numerical columns: ['mileage', 'Age']
+[ 2023-10-27 15:41:34,133 ] 95 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-10-27 15:41:34,150 ] 111 root - INFO - Saved preprocessing object.
+[ 2023-10-27 15:41:34,151 ] 29 root - INFO - Split training and test input data
+[ 2023-10-27 15:41:34,151 ] 39 root - INFO - Model Building
+[ 2023-10-27 15:41:34,256 ] 54 root - INFO - Model training start
+[ 2023-10-27 15:44:24,087 ] 63 root - INFO - Model training finished
