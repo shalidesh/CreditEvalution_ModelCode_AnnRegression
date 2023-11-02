@@ -1,0 +1,15 @@
+[ 2023-11-02 14:40:26,344 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-02 14:40:26,352 ] 96 werkzeug - INFO -  * Debugger PIN: 944-501-257
+[ 2023-11-02 14:40:33,702 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:33] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:40:52,887 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:52] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-11-02 14:40:53,018 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:53] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-02 14:40:53,210 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:53] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-02 14:40:53,554 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:53] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-02 14:40:53,820 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:40:53] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-02 14:41:35,793 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:41:35] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:41:55,344 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:41:55] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:42:17,073 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:42:17] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:46:07,746 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:46:07] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:46:35,880 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:46:35] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-11-02 14:47:00,136 ] 159 tensorflow - WARNING - 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000017CA5482710> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[ 2023-11-02 14:47:00,143 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Nov/2023 14:47:00] "POST /predictdata HTTP/1.1" 200 -

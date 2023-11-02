@@ -56,7 +56,7 @@ class ModelTrainer:
             history = model.fit(X_train, y_train,
                                 validation_data = (X_test, y_test),
                                 callbacks=[es],
-                                epochs=500,
+                                epochs=1000,
                                 batch_size=32,
                                 verbose=1)
 

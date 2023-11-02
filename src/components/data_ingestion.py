@@ -26,7 +26,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try:
-            df=pd.read_excel('notebook\\data\\3W_bajaj_ANN_preprocessed01.xlsx')
+            df=pd.read_csv('notebook\\data\\Preprocessed3W.csv')
             logging.info('Read the dataset as dataframe')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)

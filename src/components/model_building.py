@@ -10,9 +10,9 @@ class ModelBuilding:
         self.input_value=input_value
         
         model = Sequential()
-        model.add(Dense(120, input_shape=(self.input_value,), activation='relu')) # (features,)
-        model.add(Dense(60, activation='relu'))
-        model.add(Dense(30, activation='relu'))
+        model.add(Dense(600, input_shape=(self.input_value,), activation='relu')) # (features,)
+        model.add(Dense(300, activation='relu'))
+        model.add(Dense(150, activation='relu'))
         model.add(Dense(1, activation='linear')) # output node
         model.summary() # see what your model looks like
 

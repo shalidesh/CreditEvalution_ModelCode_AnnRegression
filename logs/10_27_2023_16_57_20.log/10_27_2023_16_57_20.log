@@ -1,3 +1,0 @@
-[ 2023-10-27 16:57:23,994 ] 96 werkzeug - WARNING -  * Debugger is active!
-[ 2023-10-27 16:57:24,003 ] 96 werkzeug - INFO -  * Debugger PIN: 397-196-606
-[ 2023-10-27 16:57:51,010 ] 96 werkzeug - INFO -  * Detected change in 'e:\\cdb\\cdb_projects\\modelbuiding\\modelcode\\app.py', reloading
